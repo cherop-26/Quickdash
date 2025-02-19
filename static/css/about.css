@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+#main{
+    display: flex;
+}
+.divs{margin-right: 20px}
+
+.button{
+    border-radius: 10px;
+}
+
+.img{
+    width: 225px;
+    height: 225px;
+}
+
+
+
+

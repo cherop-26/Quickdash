@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <style>
+        h1{
+            text-align: center;
+            background-color:#205067;
+            color: gray;
+            line-height: 80px;
+        }
+        h1:hover{
+
+            background-color: white;
+        }
+    </style>
+
+</head>
+<body>
+
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'gallery' %}">Gallery</a>
+
+
+<h1>Quickdash App</h1>
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi assumenda, dolores est facilis, harum illo impedit in ipsa maiores, numquam omnis suscipit tempore. Corporis expedita magnam obcaecati optio reiciendis.</span><span>Adipisci aliquam beatae blanditiis dolor eius enim, fuga fugiat fugit harum itaque magnam minima mollitia qui unde ut voluptatem voluptatum! Aperiam, dicta ex facere modi officia provident sit suscipit voluptatibus?</span></p>
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deserunt exercitationem in iste quisquam, sit vitae! Dignissimos itaque repellendus rerum tempora velit? Illo ipsum neque numquam officiis rerum sequi totam!</span><span>Accusantium adipisci at atque culpa ducimus esse facilis fugit laboriosam, laborum magnam quisquam soluta, totam? Doloribus ipsam iste magni sed vero? Architecto cupiditate eveniet fugit maxime porro! Officiis, ullam, vitae.</span><span>Dicta distinctio dolor dolorum esse incidunt laudantium, unde voluptas. At distinctio exercitationem facilis in inventore iure labore laboriosam, laudantium minus molestias nam neque nobis officiis qui quod sint suscipit voluptatum!</span></p>
+</body>
+</html>

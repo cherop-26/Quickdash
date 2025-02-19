@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gallery</title>
+
+
+    {% load static %}
+    <link rel="icon" href="{% static 'assets/img.png'%}">
+    <style>
+       h1{
+           text-align: center;
+           background-color: darkblue;
+           color: white;
+           line-height: 80px;
+       }
+       img{
+           width: 200px;
+           height: 200px;
+       }
+
+
+    </style>
+
+</head>
+<body>
+
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'about' %}">About</a>
+
+
+
+
+<h1>MY GALLERY</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, consequatur culpa ducimus esse exercitationem fuga illum iste iure laudantium nihil non porro quidem quisquam reiciendis repudiandae soluta suscipit voluptas voluptatum?</span><span>A accusamus consequatur consequuntur deserunt, facilis itaque, iusto necessitatibus nemo officia omnis placeat praesentium quasi quibusdam repellat rerum totam, vel velit voluptates. Accusantium consectetur doloribus, nihil perferendis porro qui temporibus?</span><span>Animi at culpa dolorum ea eaque esse fuga hic illo in, incidunt iste iusto labore laborum maiores minus modi nam, neque quam quidem quis quisquam, reiciendis reprehenderit soluta sunt suscipit?</span></p>
+
+<img src="{% static 'assets/img.png' %}" alt="">
+<img src="{% static 'assets/img_1.png' %}" alt="">
+<img src="{% static 'assets/img_2.png' %}" alt="">
+<img src="{% static 'assets/img_3.png' %}" alt="">
+<img src="{% static 'assets/img_4.png' %}" alt="">
+<img src="{% static 'assets/img_5.png' %}" alt="">
+<img src="{% static 'assets/img_6.png' %}" alt="">
+
+
+</body>
+</html>

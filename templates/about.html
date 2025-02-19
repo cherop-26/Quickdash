@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    
+</head>
+<body>
+
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'gallery' %}">Gallery</a>
+
+
+<h1>Additional Information about Quickdash</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ducimus magni, nam natus officia ratione similique vero! Alias eligendi esse et, exercitationem rem reprehenderit saepe tempora vero. Blanditiis, consequatur, laborum!</span><span>Architecto dignissimos fugiat minus similique! Iste, sit, temporibus? A aspernatur commodi culpa distinctio dolorem eius error excepturi harum ipsa libero maxime, minima modi nam odio officiis quam qui quis vitae!</span><span>Ab animi delectus ea illum impedit ipsam labore, necessitatibus omnis ratione vitae. Ad cumque fugiat fugit in laudantium maiores neque odio officiis perferendis quam sequi sit, temporibus ut velit vero.</span></p>
+
+<h2>Why Choose us?</h2>
+
+<div id="main">
+    <div class="divs">
+        <img src=" {% static 'assets/watch3.jpg' %} "alt="" class="img">
+        <h3>Watch 1</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate dolore eos fugiat fugit hic, ipsa minima molestias nam nemo nulla odio porro possimus quis ratione, reiciendis repudiandae veniam, voluptatem.</span><span>Accusantium aliquid animi consequuntur dicta doloribus eligendi eos, error ex explicabo illum laudantium libero maxime mollitia necessitatibus nihil obcaecati porro, quasi quidem quis, quisquam quos reiciendis repudiandae saepe velit voluptates!</span></p>
+    <button id="button">More</button>
+    </div>
+
+
+
+    <div class="divs">
+
+  <img src=" {% static 'assets/watch4.jpg' %} "alt="" class="img">
+        <h3>Watch 2</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate dolore eos fugiat fugit hic, ipsa minima molestias nam nemo nulla odio porro possimus quis ratione, reiciendis repudiandae veniam, voluptatem.</span><span>Accusantium aliquid animi consequuntur dicta doloribus eligendi eos, error ex explicabo illum laudantium libero maxime mollitia necessitatibus nihil obcaecati porro, quasi quidem quis, quisquam quos reiciendis repudiandae saepe velit voluptates!</span></p>
+    <button class="button">More</button>
+
+    </div>
+
+
+
+    <div class="divs">
+          <img src=" {% static 'assets/watch2.jpg' %} "alt="" class="img">
+        <h3>Watch 3</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A cupiditate dolore eos fugiat fugit hic, ipsa minima molestias nam nemo nulla odio porro possimus quis ratione, reiciendis repudiandae veniam, voluptatem.</span><span>Accusantium aliquid animi consequuntur dicta doloribus eligendi eos, error ex explicabo illum laudantium libero maxime mollitia necessitatibus nihil obcaecati porro, quasi quidem quis, quisquam quos reiciendis repudiandae saepe velit voluptates!</span></p>
+    <button id="button">More</button>
+    </div>
+    
+</div>
+
+</body>
+</html>
