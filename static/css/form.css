@@ -1,0 +1,34 @@
+#reg{
+    color:green;
+}
+
+button{
+    border-radius: 15px;
+    color: white;
+    background-color: green;
+    width: 200px;
+    height: 40px;
+    margin-left: 90px;
+}
+#form{
+    box-shadow: 4px 4px 4px gray;
+    width: 400px;
+    margin: 0 auto;
+
+}
+input{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+}
+select{
+    width: 350px;
+    height: 35px;
+}
+form{
+    background-color: whitesmoke;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+

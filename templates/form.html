@@ -6,13 +6,21 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Registration form</title>
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+
 </head>
 <body>
 
-<div>
-    <form action="">
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'gallery' %}">Gallery</a>
+<a href="{% url 'about' %}">About</a>
 
-        <h1>Registration Form</h1>
+<div id="form">
+    <form action="" >
+
+        <h1 id="reg">Registration Form</h1>
 
         <label for="fname">First name:</label>
         <br>
@@ -44,12 +52,13 @@
         <input id="cnt" type="tel">
         <br><br>
 
-        <label for="opt">Gender</label>
+        <label for="opt">Gender:</label>
         <select name="" id="opt">
             <option value="none" disabled="disabled">..</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
         </select>
+        <br><br>
 
         <button>Submit</button>
 
