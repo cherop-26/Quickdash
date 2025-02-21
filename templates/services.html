@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Services</title>
+
+     {% load static %}
+
+    <nav class="navbar bg-info justify-content-end navbar-expand-lg ">
+
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="home.html" class="nav-link">home</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="product.html" class="nav-link">Products</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+        </li>
+
+
+
+
+    </ul>
+
+</nav>
+
+<!---End of Navbar--->
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+
+</head>
+<body>
+<h1 class="text-center">Our Services</h1>
+
+<div class="d-flex">
+
+    <div class="container border h-100">
+        <img src="{% static 'assets/design.jpg' %}" alt="" class="w-50 h-50 ">
+        <h2>Design</h2>
+        <p>Deliver the best user experience with our carefully designed responsive websites and applications!</p>
+        <hr>
+        <button class="text-danger btn mx-auto d-block">See portfolio>></button>
+    </div>
+
+
+    <div class="container border h-100">
+<img src="{% static 'assets/development.jpg' %}" alt="" class="w-50 h-50 ">
+        <h2>Development</h2>
+        <p>You need software that works on every device.leverage the latest technologies and the most powerful tools!</p>
+        <hr>
+        <button class="text-danger btn mx-auto d-block">See Projects>></button>
+    </div>
+
+
+    <div class="container border h-100">
+        <img src="{% static 'assets/analytics.png' %}" alt="" class="w-50 h-50">
+        <h2>Analytics</h2>
+        <p>Consult our experts to set up proper goals and find the best stack for your next applications!</p>
+        <hr>
+        <button class="text-danger btn mx-auto d-block">See testimonials>></button>
+    </div>
+
+
+</div>
+
+</body>
+</html>
